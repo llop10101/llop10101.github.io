@@ -126,8 +126,8 @@ hr {
     background-color: transparent;
     width: 300px;
     height: 300px;
-    border: 1px solid #263dbd;
-    perspective: 1000px;
+    margin-left: 10px;
+    margin-top: 60px;
 }
 
 .flip-card-inner{
