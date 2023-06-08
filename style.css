@@ -111,6 +111,7 @@ OL{
 }
 
 .middle {
+    padding : 50px;
     left:50%;
     text-align: center;
 }
