@@ -151,8 +151,7 @@ hr {
 }
 
 footer{
-    background-color:darkslategrey;
-    padding: 20px;
+    background-color:rgb(25, 25, 25);
     display:flex;
     justify-content:space-between;
 }
