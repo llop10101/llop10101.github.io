@@ -159,3 +159,15 @@ hr {
     color: white;
     transform: rotateY(180deg);
 }
+
+.left{
+    text-align: left;
+    float:left;
+}
+.right{
+    float:right;
+    text-align:right;
+}
+.centered{
+    text-align:center
+}
