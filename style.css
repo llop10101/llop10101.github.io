@@ -141,7 +141,7 @@ input:focus {
 .tabcontent {
     color: white;
     display : none;
-    padding: 30px;
+    padding: 40px;
     text-align: center;
 }
 #Menu{background-color: purple;}
