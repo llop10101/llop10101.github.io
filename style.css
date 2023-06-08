@@ -1,13 +1,11 @@
 h1,h2,h3,h4,h5,p,ul,td { 
     font-family: Arial, Helvetica, sans-serif; 
     text-decoration: none;
-    color : rgb(255, 255, 255);
-    background:#000000;   
+    color : rgb(255, 255, 255); 
 }
 
 h1,h2,h3,h4,h5{
     color : rgb(255, 255, 255);
-    background:rgb(0, 0, 0);  
 }
 
 body{
@@ -15,7 +13,6 @@ body{
     margin-left: 2.5%;
     margin-right: 2.5%;
     color : rgb(255, 255, 255);
-    background:#000000;   
 }
 
 B{ 
@@ -147,10 +144,10 @@ input:focus {
     padding: 50px;
     text-align: center;
 }
+#Menu{background-color: orange;}
 #Informacio{background-color: blue;}
 #Fotos{background-color: skyblue;}
 #Casting{background-color: green;}
-#Menu{background-color: orange;}
 .capcaleraTitol{
     text-align: left;
     margin-left: 0%;
