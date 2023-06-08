@@ -154,6 +154,12 @@ footer{
     background-color:rgb(25, 25, 25);
     display:flex;
     justify-content:space-between;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover{
+    color: rgb(200,200,200);
 }
 .column{
     flex:1;
