@@ -101,6 +101,7 @@ OL{
 #Casting{background-color: green;}
 
 .footer {
+    padding:20px;
     position: fixed;
     left: 0;
     bottom:0;
