@@ -117,6 +117,40 @@ input:focus {
 
 }
 
+.header {
+    padding : 60px;
+    text-align: center;
+    background: #000000;
+    color :#ffffff;
+    font-size:30px;
+}
+
+.tablink{
+    background-color: #555;
+    color : white;
+    float : left;
+    border : none;
+    outline : none;
+    cursor : pointer;
+    padding : 14px 16px;
+    font-size: 17px;
+    width: 25%;
+}
+
+.tablink:hover {
+    background-color: #777;
+}
+
+.tabcontent {
+    color: white;
+    display : none;
+    padding: 50px;
+    text-align: center;
+}
+#Informacio{background-color: blue;}
+#Fotos{background-color: red;}
+#Casting{background-color: green;}
+#Menu{background-color: orange;}
 .capcaleraTitol{
     text-align: left;
     margin-left: 0%;
