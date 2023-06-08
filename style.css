@@ -100,16 +100,6 @@ OL{
 #Fotos{background-color: steelblue;}
 #Casting{background-color: green;}
 
-.footer {
-    padding:20px;
-    position: relative;
-    left: 0;
-    bottom:0;
-    width:100%;
-    background-color: darkblue;
-    color: white;
-    text-align: center;
-}
 
 .middle {
     padding : 50px;
@@ -160,14 +150,23 @@ hr {
     transform: rotateY(180deg);
 }
 
-.left{
-    text-align: left;
-    float:left;
+footer{
+    background-color:darkslategrey;
+    padding: 20px;
+    display:flex;
+    justify-content:space-between;
 }
-.right{
-    float:right;
-    text-align:right;
+.column{
+    flex:1;
+    margin-right:20px;
 }
-.centered{
-    text-align:center
+.column:last-child{
+    margin-right:0;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+li{
+    margin-bottom:5px;
 }
