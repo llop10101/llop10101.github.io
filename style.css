@@ -129,7 +129,6 @@ input:focus {
     border : none;
     outline : none;
     cursor : pointer;
-    padding : 14px 16px;
     font-size: 17px;
     width: 25%;
 }
@@ -148,6 +147,7 @@ input:focus {
 #Informacio{background-color: blue;}
 #Fotos{background-color: steelblue;}
 #Casting{background-color: green;}
+
 .capcaleraTitol{
     text-align: left;
     margin-left: 0%;
