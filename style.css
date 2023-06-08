@@ -4,10 +4,6 @@ h1,h2,h3,h4,h5,p,ul,td {
     color : rgb(255, 255, 255); 
 }
 
-h1,h2,h3,h4,h5{
-    color : rgb(255, 255, 255);
-}
-
 body{
     font-family: Arial,Helvetica,sans-serif;
     margin-left: 2.5%;
@@ -114,3 +110,15 @@ OL{
     text-align: center;
 }
 
+.middle {
+    position : absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+hr {
+    margin:auto;
+    width: 40%;
+}
