@@ -69,51 +69,6 @@ OL{
     margin-right: 10%;
 }
 
-table, th, td {
-    background-color: rgb(50, 50, 50);
-    border: 10px solid black;
-}
-
-th {
-    background-color:#000000;
-    color: #ffffff;
-}
-
-strong{
-    color:rgb(255, 0, 0);
-}
-
-label{
-    display: block;
-    float: left;
-    width : 40%;  
-    text-align: right;  
-    padding-right: 1em;
-}
-
-input{
-    background : rgb(0, 0, 0);
-    color:rgb(255, 255, 255); 
-}
-
-input:focus {
-  background-color: rgb(0, 0, 0);
-}
-
-.capcaleraUsuari{
-    font-family: monospace;
-    text-align: right;
-    margin-left: 0%;
-    margin-right: 0%;
-    padding-top: 0.2em;
-    padding-right: 1em;
-    padding-bottom: 0.2em;
-    padding-left: 1em;
-    color: black;
-    float: right;
-
-}
-
 .header {
     padding : 60px;
     text-align: center;
@@ -149,73 +104,13 @@ input:focus {
 #Fotos{background-color: steelblue;}
 #Casting{background-color: green;}
 
-.capcaleraTitol{
-    text-align: left;
-    margin-left: 0%;
-    margin-right: 0%;
-    padding-top: 0.2em;
-    padding-right: 1em;
-    padding-bottom: 0.2em;
-    padding-left: 1em;
-    font-size: 150%;
-    font-weight: bold;
-    background:rgb(0, 0, 0); 
-    float: left;
-
-}
-p.peu{
-    font-family: Arial,Helvetica,sans-serif;
+.footer {
+    position: fixed;
+    left: 0;
+    bottom:0;
+    width:100%;
+    background-color: darkblue;
+    color: white;
     text-align: center;
-    margin-left: 0%;
-    margin-right: 0%;
-    padding-top: 0.2em;
-    padding-right: 1em;
-    padding-bottom: 0.2em;
-    padding-left: 1em;
-    color : rgb(255, 255, 255);
-    background:rgb(0, 0, 0);  
 }
-
-a.peu:link{
-    color: rgb(0, 0, 0);
-
-}
-a.peu:visited{
-    color: #000000;
-}
-
-a.menu:link, a.menu:visited {
-    background-color: rgb(0, 0, 0);
-    border-color: rgb(255, 255, 255);
-    border: 0.5px solid;
-    color: #ffffff;
-    padding: 0.2em 0.5em 0.2em 0.5em;
-    border-style: groove;
-    border-radius: 12px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-}
-
-a.menu:hover, a.menu:active {
-    box-sizing: inherit;
-    width: auto;
-    background-color: #000000;
-    color: rgb(121, 160, 231);
-    border: 2px solid rgbrgb(0, 153, 255);
-    border-top-color: rgb(0, 153, 255);
-    border-top-style: solid;
-    border-top-width: 2px;
-    border-right-color: rgb(0, 153, 255);
-    border-right-style: solid;
-    border-right-width: 2px;
-    border-bottom-color: rgb(0, 153, 255);
-    border-bottom-style: solid;
-    border-bottom-width: 2px;
-    border-left-color: rgb(0, 153, 255);
-    border-left-style: solid;
-    border-left-width: 2px;
-}
-
-
 
