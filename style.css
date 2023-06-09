@@ -64,14 +64,6 @@ h1,h2,h3,h4,h5,p,ul,td {
     margin-left:2%;
     margin-right: 10%;
   }
-  #counter-container{
-    position: fixed;
-    margin-top: 10px;
-    background-color: rgba(0,0,0,0.80);
-    padding : 50px;
-    left:50%;
-    text-align: center;
-  }
   #image-container{
     position: fixed;
     top:0;
@@ -209,6 +201,13 @@ h1,h2,h3,h4,h5,p,ul,td {
   }
   .flip-card h1, .flip-card p{
     margin:10px;
+  }
+
+  counter{
+    position: fixed; 
+    z-index:1;
+    background-color: rgba(0,0,0,0.80);
+    text-decoration: none;
   }
 
   footer{
