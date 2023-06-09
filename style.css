@@ -283,6 +283,19 @@ table tr:nth-child(even) {
   text-align: center;
 }
 
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns as needed */
+  grid-gap: 10px; /* Adjust the gap between grid items */
+}
+
+.grid-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px; /* Add border radius for rounded corners */
+}
+
+
 .grid-item {
   position: relative;
   overflow: hidden;
