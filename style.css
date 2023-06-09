@@ -66,8 +66,18 @@ h1,h2,h3,h4,h5,p,ul,td {
   }
 
   #image-container{
-    position: relative;
-    height: 100vh;
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    overflow:hidden;
+    opacity: 1;
+    transition:opacity 0.5s ease;
+  }
+
+  #image-container.fade{
+    opacity: 0.7;
   }
 
   #background-image{
