@@ -257,20 +257,22 @@ li {
 }
 
 table {
-  width: 100%;
+  width: 30%;
   border-collapse: collapse;
   position: fixed;
   top: 200px;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
 }
 
 table th, table td {
   padding: 8px;
   text-align: left;
-  border-bottom: 1px solid #ff0000;
+  border-bottom: 1px solid #ffffff;
 }
 
 table tr:nth-child(even) {
-  background-color: #15ff00;
+  background-color: #8d8d8d;
 }
 
 .calendar-header {
