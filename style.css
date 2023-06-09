@@ -285,35 +285,27 @@ table tr:nth-child(even) {
 
 .image-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns as needed */
-  grid-gap: 10px; /* Adjust the gap between grid items */
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
 }
-
-.grid-item img {
-  width: 100%;
-  height: auto;
-  border-radius: 10px; /* Add border radius for rounded corners */
-}
-
 
 .grid-item {
   position: relative;
-  overflow: hidden;
 }
 
 .grid-item img {
   width: 100%;
   height: auto;
-  border-radius: 10px;
-  transition: transform 0.3s;
+  border-radius: 8px;
+  transition: filter 0.3s ease;
 }
 
 .grid-item:hover img {
-  transform: scale(1.1);
+  filter: blur(3px);
 }
 
 .grid-item::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -321,7 +313,7 @@ table tr:nth-child(even) {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   opacity: 0;
-  transition: opacity 0.3s;
+  transition: opacity 0.3s ease;
 }
 
 .grid-item:hover::before {
@@ -329,17 +321,17 @@ table tr:nth-child(even) {
 }
 
 .grid-item::after {
-  content: '\f06e';
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  font-size: 30px;
-  color: #fff;
+  content: "\f06e"; /* Font Awesome eye icon */
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 36px;
+  color: #fff;
   opacity: 0;
-  transition: opacity 0.3s;
+  transition: opacity 0.3s ease;
 }
 
 .grid-item:hover::after {
