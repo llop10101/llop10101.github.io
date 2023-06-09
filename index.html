@@ -1,66 +1,71 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional">
-<html>
+<!DOCTYPE html>
+<html lang="ca">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
-  <title>Exemple Web Els Pastorets de Girona</title>
-  <link rel = "icon" type="image/x-icon" href="/images/logoPastorets.png">
-  <link rel="stylesheet" href="style.css" type="text/css"> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Els Pastorets de Girona</title>
+  <link rel="icon" type="image/x-icon" href="/images/logoPastorets.png">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-<div id="image-container">
-    <img id="background-image" src="/images/backgroundImage.jpg" alt ="Background Image">
+<header>
+  <div id="image-container">
+    <img id="background-image" src="/images/backgroundImage.jpg" alt="Background Image">
     <div id="text-overlay">
       <div class="header">
         <h1>Pastorets De Girona</h1>
         <h2>Són diferents exemples de coses que he programat</h2>
-        <h3>Tot es pot modificar, sobre tot els colors</h3>
+        <h3>Tot es pot modificar, sobretot els colors</h3>
       </div>
     </div>
-</div>
+  </div>
+</header>
+
 <script src="fadeOnScroll.js"></script>
+
 <div id="tab-container">
-  <button class="tablink" onclick="obrirInfo('AraSi',this,'purple')" id="defaultOpen">Ara si</button>
-  <button class="tablink" onclick="obrirInfo('Informacio',this,'blue')">Informació</button>
-  <button class="tablink" onclick="obrirInfo('Fotos',this,'steelblue')">Galeria d'imatges</button>
-  <button class="tablink" onclick="obrirInfo('Casting',this,'green')">Càsting</button>
+  <button class="tablink" onclick="obrirInfo('AraSi', this, 'purple')" id="defaultOpen">Ara si</button>
+  <button class="tablink" onclick="obrirInfo('Informacio', this, 'blue')">Informació</button>
+  <button class="tablink" onclick="obrirInfo('Fotos', this, 'steelblue')">Galeria d'imatges</button>
+  <button class="tablink" onclick="obrirInfo('Casting', this, 'green')">Càsting</button>
   <script src="funcioTab.js"></script>
 
   <div id="AraSi" class="tabcontent">
     <h1>Ara si</h1>
-    <p>Falta per afegir coses com per exemple l'equip, contacte...</p>
-    <p>Maco visualment, però millor si la part de canviar de pestanyes la poso a dalt</p>
+    <p>Falten per afegir coses com l'equip, contacte...</p>
+    <p>Visualment maco, però millor si la part de canviar de pestanyes la poso a dalt</p>
   </div>
 
   <div id="Informacio" class="tabcontent">
     <h1>Informació</h1>
-    <p>Aquest és un nou projecte en progres</p>
+    <p>Aquest és un nou projecte en progrés</p>
   </div>
 
   <div id="Fotos" class="tabcontent">
     <h1>Galeria d'imatges</h1>
-    <p>Pròximament</p>
+    <p>Properament</p>
   </div>
 
   <div id="Casting" class="tabcontent">
-    <img src="/images/castingIcon.png" alt="castingIcon" width="300" height="300"/>
+    <img src="/images/castingIcon.png" alt="Casting Icon" width="300" height="300">
     <h1>Càsting</h1>
-    <p>Pròximament</p>
+    <p>Properament</p>
   </div>
 </div>
 
-  <div>
-    <h1>CONEIX ELS PERSONATGES:</h1>
-    <h4>S'ha d'integrar a una pàgina apart</h4>
-    <p>En teoria les fotos dels actors i un petit resum del pj que representen</p>
-    <p>Es pot fer que tots ells escriguin la seva propia descripció, com per exemple (fet amb Satanas)</p>
-  </div>
+<section>
+  <h1>CONEIX ELS PERSONATGES:</h1>
+  <h4>S'ha d'integrar a una pàgina apart</h4>
+  <p>En teoria, les fotos dels actors i un petit resum del personatge que representen</p>
+  <p>Es pot fer que tots ells escriguin la seva pròpia descripció, com per exemple (fet amb Satanas)</p>
+</section>
 
 <div class="flip-card-container">
   <div class="flip-card">
     <div class="flip-card-inner">
       <div class="flip-card-front">
-        <img src="/images/questionMarkIcon.png" alt="Manela" style ="width:300px;height:300px;">
+        <img src="/images/questionMarkIcon.png" alt="Manela" style="width: 300px; height: 300px;">
       </div>
       <div class="flip-card-back">
         <h1>Manela</h1>
@@ -68,7 +73,7 @@
         <p>Acostuma a escapar-se</p>
         <p>Hem perdut la seva imatge</p>
         <p>Per aquest motiu llançem el concurs</p> 
-        <b>"ALÇA, LA MANELA!"</b>
+        <strong>"ALÇA, LA MANELA!"</strong>
       </div>
     </div>
   </div>
@@ -145,8 +150,10 @@
   </div>
 </div>
 
+</div>
+
 <div class="middle">
-  <h1>Compte enrere fins la primera funció</h1>
+  <h1>Compte enrere fins a la primera funció</h1>
   <p id="temps" style="font-size: 30px;"></p>
   <script src="countDownTimer.js"></script>
 </div>
@@ -178,7 +185,6 @@
       <li><a href="">Col·labora</a></li>
     </ul>
   </div>
-
 </footer>
-</body>  
+</body>
 </html>
