@@ -145,6 +145,8 @@ h1,h2,h3,h4,h5,p,ul,td {
 
 
   .middle {
+    position: fixed;
+    background-color: rgba(0,0,0,0.80);
     padding : 50px;
     left:50%;
     text-align: center;
