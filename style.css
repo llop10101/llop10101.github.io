@@ -138,7 +138,7 @@ hr {
 }
 /* CountDown Timer */
 .countdown-timer{
-  position: relative;
+  position:sticky;
   background-color: rgba(0, 0, 0, 0.8);
 }
 /* Flip Card */
