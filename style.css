@@ -138,7 +138,10 @@ hr {
 }
 /* CountDown Timer */
 .countdown-timer{
-  position:sticky;
+  position:fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   background-color: rgba(0, 0, 0, 0.8);
 }
 /* Flip Card */
