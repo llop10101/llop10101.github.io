@@ -1,64 +1,57 @@
 <!DOCTYPE html>
 <html lang="ca">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
-  <title>Exemple Web Els Pastorets de Girona</title>
-  <link rel="icon" type="image/x-icon" href="/images/logoPastorets.png">
-  <link rel="stylesheet" href="style.css" type="text/css"> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pastorets De Girona</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
 </head>
-
 <body>
-<header>
   <div id="image-container">
-    <img id="background-image" src="/images/backgroundImage.jpg" alt="Imatge de fons">
+    <img id="background-image" src="/images/background.jpg" alt="Imatge de fons">
     <div id="text-overlay">
-      <div class="header">
-        <h1>Pastorets De Girona</h1>
-        <h2>Són diferents exemples de coses que he programat</h2>
-        <h3>Tot es pot modificar, sobretot els colors</h3>
-      </div>
+      <h1>Pastorets De Girona</h1>
     </div>
   </div>
-</header>
 
-<script src="fadeOnScroll.js"></script>
-
-<div id="tab-container">
-  <button class="tablink" onclick="obrirInfo('AraSi',this,'purple')" id="defaultOpen">Ara si</button>
-  <button class="tablink" onclick="obrirInfo('Informacio',this,'blue')">Informació</button>
-  <button class="tablink" onclick="obrirInfo('Fotos',this,'steelblue')">Galeria d'imatges</button>
-  <button class="tablink" onclick="obrirInfo('Casting',this,'green')">Càsting</button>
-  <script src="funcioTab.js"></script>
-
-  <div id="AraSi" class="tabcontent">
-    <h1>Ara si</h1>
-    <p>Falta per afegir coses com per exemple l'equip, contacte...</p>
-    <p>Maco visualment, però millor si la part de canviar de pestanyes la poso a dalt</p>
+  <div id="tab-container">
+    <button class="tablink" onclick="openTab(event, 'AraSi')">Ara Sí</button>
+    <button class="tablink" onclick="openTab(event, 'Informacio')">Informació</button>
+    <button class="tablink" onclick="openTab(event, 'Fotos')">Fotos</button>
+    <button class="tablink" onclick="openTab(event, 'Casting')">Casting</button>
   </div>
 
-  <div id="Informacio" class="tabcontent">
-    <h1>Informació</h1>
-    <p>Aquest és un nou projecte en progrés</p>
-  </div>
+  <div class="middle">
+    <div id="AraSi" class="tabcontent">
+      <h2>Ara Sí</h2>
+      <p>El moment que tots esperàvem</p>
+      <p>El gran retorn dels Pastorets de Girona!</p>
+    </div>
 
-  <div id="Fotos" class="tabcontent">
-    <h1>Galeria d'imatges</h1>
-    <p>Pròximament</p>
-  </div>
+    <div id="Informacio" class="tabcontent">
+      <h2>Informació</h2>
+      <p>Una obra clàssica que no et pots perdre</p>
+      <p>Aquest Nadal, vine a gaudir dels Pastorets de Girona</p>
+    </div>
 
-  <div id="Casting" class="tabcontent">
-    <img src="/images/castingIcon.png" alt="castingIcon" width="300" height="300"/>
-    <h1>Càsting</h1>
-    <p>Pròximament</p>
-  </div>
-</div>
+    <div id="Fotos" class="tabcontent">
+      <h2>Fotos</h2>
+      <p>Imatges dels moments més especials de l'obra</p>
+      <p>Explora la galeria de fotos dels Pastorets de Girona</p>
+    </div>
 
-<div>
-  <h1>CONEIX ELS PERSONATGES:</h1>
-  <h4>S'ha d'integrar a una pàgina apart</h4>
-  <p>En teoria les fotos dels actors i un petit resum del pj que representen</p>
-  <p>Es pot fer que tots ells escriguin la seva propia descripció, com per exemple (fet amb Satanas)</p>
-</div>
+    <div id="Casting" class="tabcontent">
+      <h2>Casting</h2>
+      <p>Vols formar part dels Pastorets de Girona?</p>
+      <p>Apunta't al nostre casting i mostra el teu talent</p>
+    </div>
+
+    <div id="countdown-timer">
+      <h2>Comença en:</h2>
+      <div id="timer"></div>
+    </div>
+  </div>
 
 <div class="flip-card-container">
   <div class="flip-card">
@@ -146,8 +139,37 @@
       </div>
     </div>
   </div>
-
 </div>
+
+<footer>
+  <div class="column">
+    <h3>Els Pastorets de Girona</h3>
+    <ul>
+      <li><a href="">About</a></li>
+      <li><a href="">FAQ</a></li>
+      <li><a href="">Third-party notice</a></li>
+    </ul>
+  </div>
+
+  <div class="column">
+    <h3>Segueix-nos</h3>
+    <ul>
+      <li><a href="">Twitter</a></li>
+      <li><a href="">Instagram</a></li>
+      <li><a href="">TikTok</a></li>
+    </ul>
+  </div>
+
+  <div class="column">
+    <h3>Descobreix</h3>
+    <ul>
+      <li><a href="">Newsletters</a></li>
+      <li><a href="">Blog</a></li>
+      <li><a href="">Col·labora</a></li>
+    </ul>
+  </div>
+
+</footer>
 
 </body>
 </html>
