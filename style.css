@@ -263,8 +263,7 @@ table {
   width: 30%;
   border-collapse: collapse;
   position: fixed;
-  border: 2px solid #ffffff;
-  border-radius: 10px;
+  border: 2px solid #2d2f85;
 }
 
 table th, table td {
