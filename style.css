@@ -222,6 +222,10 @@ footer a:hover {
   color: rgb(200, 200, 200);
 }
 
+footer.hidden {
+  display: none;
+}
+
 .column {
   flex: 1;
   margin-right: 20px;
