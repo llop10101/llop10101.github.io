@@ -1,8 +1,8 @@
 var events = [
-    { grupo: "Pastors", hora: '15:30' },
-    { grupo: "Àngels", hora: '18:00' },
-    { grupo: "Dimonis", hora: '11:00' },
-    { grupo: "Personatges", hora: '14:45' }
+    { grupo: "Pastors", dia:1, hora: '15:30' },
+    { grupo: "Àngels", dia:2, hora: '18:00' },
+    { grupo: "Dimonis", dia:3, hora: '11:00' },
+    { grupo: "Personatges", dia:4, hora: '14:45' }
   ];
 
   var eventTableBody = document.getElementById('event-table-body');
@@ -11,7 +11,7 @@ var events = [
     var eventItem = events[i];
     var row = document.createElement('tr');
     row.innerHTML = '<td>' + eventItem.grupo + '</td>' +
-                    '<td>' + (i + 1) + '/06/2023</td>' +
+                    '<td>' + eventItem.dia + '/06/2023</td>' +
                     '<td>' + eventItem.hora + '</td>';
     eventTableBody.appendChild(row);
   }
