@@ -4,23 +4,24 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pastorets De Girona</title>
-  <link rel="stylesheet" href="styles.css">
-  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel = "icon" type="image/x-icon" href="/images/logoPastorets.png">
 </head>
 <body>
   <div id="image-container">
-    <img id="background-image" src="/images/background.jpg" alt="Imatge de fons">
+    <img id="background-image" src="/images/backgroundImage.jpg" alt="Imatge de fons">
     <div id="text-overlay">
       <h1>Pastorets De Girona</h1>
     </div>
   </div>
-
+  <script src="fadeOnScroll.js"></script>
   <div id="tab-container">
     <button class="tablink" onclick="openTab(event, 'AraSi')">Ara Sí</button>
     <button class="tablink" onclick="openTab(event, 'Informacio')">Informació</button>
     <button class="tablink" onclick="openTab(event, 'Fotos')">Fotos</button>
     <button class="tablink" onclick="openTab(event, 'Casting')">Casting</button>
   </div>
+  <script src="funcioTab.js"></script>
 
   <div class="middle">
     <div id="AraSi" class="tabcontent">
