@@ -289,54 +289,58 @@ table tr:nth-child(even) {
   grid-gap: 20px;
 }
 
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .grid-item {
-  position: relative;
-  width:50%;
-  padding:10px;
+  width: 50%;
+  padding: 10px;
   box-sizing: border-box;
+  position: relative;
 }
 
 .grid-item img {
   width: 100%;
   height: auto;
-  border-radius: 8px;
-  transition: filter 0.3s ease;
+}
+
+.grid-item .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: opacity 0.3s ease;
+}
+
+.grid-item:hover .overlay {
+  opacity: 1;
 }
 
 .grid-item:hover img {
   filter: blur(3px);
 }
 
-.grid-item::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  opacity: 0;
-  transition: opacity 0.3s ease;
-}
-
-.grid-item:hover::before {
-  opacity: 1;
-}
-
-.grid-item::after {
-  content: "\f06e"; /* Font Awesome eye icon */
+/* Additional styles for opening the image on click */
+.grid-item .overlay:after {
+  content: '\f00e';
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  font-size: 36px;
+  color: #fff;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  font-size: 36px;
-  color: #fff;
   opacity: 0;
   transition: opacity 0.3s ease;
 }
 
-.grid-item:hover::after {
+.grid-item:hover .overlay:after {
   opacity: 1;
 }
