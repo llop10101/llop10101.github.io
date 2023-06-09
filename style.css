@@ -197,7 +197,7 @@ footer {
   z-index: 1;
   background-color: rgba(0, 0, 0, 0.5);
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   text-decoration: none;
   transition: color 0.3s ease;
 }
