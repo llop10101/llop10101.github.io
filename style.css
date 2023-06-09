@@ -257,6 +257,7 @@ li {
 }
 
 table {
+  left:50%;
   width: 30%;
   border-collapse: collapse;
   position: fixed;
