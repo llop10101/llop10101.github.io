@@ -82,7 +82,6 @@ hr {
 /* Tabs */
 #tab-container {
   position: absolute;
-  margin-top: 10px;
   width: 100%;
   height: 100%;
   overflow: hidden;
@@ -90,6 +89,7 @@ hr {
 }
 
 .tablink {
+  margin-top:30px;
   background-color: #808080;
   color: #ffffff;
   float: left;
