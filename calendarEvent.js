@@ -2,7 +2,7 @@ var events = [
     { grupo: "Pastors", dia:1, hora: '15:30' },
     { grupo: "Àngels", dia:2, hora: '18:00' },
     { grupo: "Dimonis", dia:3, hora: '11:00' },
-    { grupo: "Personatges", dia:4, hora: '14:45' }
+    { grupo: "Personatges", dia:5, hora: '14:45' }
   ];
 
   var eventTableBody = document.getElementById('event-table-body');
