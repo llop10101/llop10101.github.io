@@ -68,7 +68,7 @@ hr {
   opacity: 1;
   transition: opacity 0.5s ease;
   z-index: 2;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 
@@ -206,7 +206,7 @@ hr {
 footer {
   position: relative;
   z-index: 1;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.7);
   display: flex;
   justify-content: flex-start;
   text-decoration: none;
