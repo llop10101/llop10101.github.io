@@ -259,16 +259,18 @@ li {
 table {
   width: 100%;
   border-collapse: collapse;
+  position: fixed;
+  top: 50px;
 }
 
 table th, table td {
   padding: 8px;
   text-align: left;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #ff0000;
 }
 
 table tr:nth-child(even) {
-  background-color: #f2f2f2;
+  background-color: #15ff00;
 }
 
 .calendar-header {
