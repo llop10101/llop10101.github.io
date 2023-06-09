@@ -1,4 +1,4 @@
-var eventos = [
+var events = [
     { dia: 7, hora: '15:30' },
     { dia: 12, hora: '18:00' },
     { dia: 20, hora: '11:00' },
@@ -7,12 +7,12 @@ var eventos = [
   
   var eventTableBody = document.getElementById('event-table-body');
   
-  for (var i = 0; i < eventos.length; i++) {
-    var evento = eventos[i];
+  for (var i = 0; i < events.length; i++) {
+    var eve = events[i];
     var row = document.createElement('tr');
-    row.innerHTML = '<td>' + evento.dia + '</td>' +
-                    '<td>' + evento.dia + '/06/2023</td>' +
-                    '<td>' + evento.hora + '</td>';
+    row.innerHTML = '<td>' + eve.dia + '</td>' +
+                    '<td>' + eve.dia + '/06/2023</td>' +
+                    '<td>' + eve.hora + '</td>';
     eventTableBody.appendChild(row);
   }
   
