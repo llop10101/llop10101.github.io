@@ -256,76 +256,24 @@ li {
   margin-top: 100px; /* Per evitar que el contingut quedi amagat darrere de la barra de navegació */
 }
 
-ul {list-style-type: none;}
-body {font-family: Verdana, sans-serif;}
+.calendar {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-gap: 10px;
+}
 
-/* Month header */
-.month {
-  padding: 70px 25px;
-  width: 100%;
-  background: #23159f4a;
+.calendar-header {
+  grid-column: 1 / -1;
   text-align: center;
+  font-weight: bold;
 }
 
-/* Month list */
-.month ul {
-  margin: 0;
-  padding: 0;
-}
-
-.month ul li {
-  color: rgb(173, 169, 169);
-  font-size: 20px;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-}
-
-/* Previous button inside month header */
-.month .prev {
-  float: left;
-  padding-top: 10px;
-}
-
-/* Next button */
-.month .next {
-  float: right;
-  padding-top: 10px;
-}
-
-/* Weekdays (Mon-Sun) */
-.weekdays {
-  margin: 0;
-  padding: 10px 0;
-  background-color:#ddd;
-}
-
-.weekdays li {
-  display: inline-block;
-  width: 13.6%;
-  color: #666;
+.calendar-day {
   text-align: center;
-}
-
-/* Days (1-31) */
-.days {
-  padding: 10px 0;
-  background: #c6c6c6;
-  margin: 0;
-}
-
-.days li {
-  list-style-type: none;
-  display: inline-block;
-  width: 13.6%;
-  text-align: center;
-  margin-bottom: 5px;
-  font-size:12px;
-  color: #000000;
-}
-
-/* Highlight the "current" day */
-.days li .active {
+  border: 1px solid #ccc;
   padding: 5px;
-  background: #b7b7b7;
-  color: rgb(255, 255, 255) !important
+}
+
+.event-day {
+  background-color: #ffc107;
 }
