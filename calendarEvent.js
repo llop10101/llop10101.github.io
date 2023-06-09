@@ -5,15 +5,14 @@ var eventos = [
     { dia: 25, hora: '14:45' }
   ];
   
-  var calendarContainer = document.querySelector('.calendar');
-  var numeroDias = new Date(2023, 5, 0).getDate();
+  var eventTableBody = document.getElementById('event-table-body');
   
-  for (var i = 1; i <= numeroDias; i++) {
-    if (eventos.find(e => e.dia === i)) {
-      var dayElement = document.createElement('div');
-      dayElement.classList.add('calendar-day', 'event-day');
-      dayElement.innerHTML = '-' + '<br>' + i + '/06/2023' + '<br>' + eventos.find(e => e.dia === i).hora;
-      calendarContainer.appendChild(dayElement);
-    }
+  for (var i = 0; i < eventos.length; i++) {
+    var evento = eventos[i];
+    var row = document.createElement('tr');
+    row.innerHTML = '<td>' + evento.dia + '</td>' +
+                    '<td>' + evento.dia + '/06/2023</td>' +
+                    '<td>' + evento.hora + '</td>';
+    eventTableBody.appendChild(row);
   }
   
