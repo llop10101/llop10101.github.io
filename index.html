@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 <html lang="ca">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Els Pastorets de Girona</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+  <title>Exemple Web Els Pastorets de Girona</title>
   <link rel="icon" type="image/x-icon" href="/images/logoPastorets.png">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" type="text/css"> 
 </head>
 
 <body>
 <header>
   <div id="image-container">
-    <img id="background-image" src="/images/backgroundImage.jpg" alt="Background Image">
+    <img id="background-image" src="/images/backgroundImage.jpg" alt="Imatge de fons">
     <div id="text-overlay">
       <div class="header">
         <h1>Pastorets De Girona</h1>
@@ -25,16 +24,16 @@
 <script src="fadeOnScroll.js"></script>
 
 <div id="tab-container">
-  <button class="tablink" onclick="obrirInfo('AraSi', this, 'purple')" id="defaultOpen">Ara si</button>
-  <button class="tablink" onclick="obrirInfo('Informacio', this, 'blue')">Informació</button>
-  <button class="tablink" onclick="obrirInfo('Fotos', this, 'steelblue')">Galeria d'imatges</button>
-  <button class="tablink" onclick="obrirInfo('Casting', this, 'green')">Càsting</button>
+  <button class="tablink" onclick="obrirInfo('AraSi',this,'purple')" id="defaultOpen">Ara si</button>
+  <button class="tablink" onclick="obrirInfo('Informacio',this,'blue')">Informació</button>
+  <button class="tablink" onclick="obrirInfo('Fotos',this,'steelblue')">Galeria d'imatges</button>
+  <button class="tablink" onclick="obrirInfo('Casting',this,'green')">Càsting</button>
   <script src="funcioTab.js"></script>
 
   <div id="AraSi" class="tabcontent">
     <h1>Ara si</h1>
-    <p>Falten per afegir coses com l'equip, contacte...</p>
-    <p>Visualment maco, però millor si la part de canviar de pestanyes la poso a dalt</p>
+    <p>Falta per afegir coses com per exemple l'equip, contacte...</p>
+    <p>Maco visualment, però millor si la part de canviar de pestanyes la poso a dalt</p>
   </div>
 
   <div id="Informacio" class="tabcontent">
@@ -44,28 +43,28 @@
 
   <div id="Fotos" class="tabcontent">
     <h1>Galeria d'imatges</h1>
-    <p>Properament</p>
+    <p>Pròximament</p>
   </div>
 
   <div id="Casting" class="tabcontent">
-    <img src="/images/castingIcon.png" alt="Casting Icon" width="300" height="300">
+    <img src="/images/castingIcon.png" alt="castingIcon" width="300" height="300"/>
     <h1>Càsting</h1>
-    <p>Properament</p>
+    <p>Pròximament</p>
   </div>
 </div>
 
-<section>
+<div>
   <h1>CONEIX ELS PERSONATGES:</h1>
   <h4>S'ha d'integrar a una pàgina apart</h4>
-  <p>En teoria, les fotos dels actors i un petit resum del personatge que representen</p>
-  <p>Es pot fer que tots ells escriguin la seva pròpia descripció, com per exemple (fet amb Satanas)</p>
-</section>
+  <p>En teoria les fotos dels actors i un petit resum del pj que representen</p>
+  <p>Es pot fer que tots ells escriguin la seva propia descripció, com per exemple (fet amb Satanas)</p>
+</div>
 
 <div class="flip-card-container">
   <div class="flip-card">
     <div class="flip-card-inner">
       <div class="flip-card-front">
-        <img src="/images/questionMarkIcon.png" alt="Manela" style="width: 300px; height: 300px;">
+        <img src="/images/questionMarkIcon.png" alt="Manela" style="width:300px;height:300px;">
       </div>
       <div class="flip-card-back">
         <h1>Manela</h1>
@@ -73,7 +72,7 @@
         <p>Acostuma a escapar-se</p>
         <p>Hem perdut la seva imatge</p>
         <p>Per aquest motiu llançem el concurs</p> 
-        <strong>"ALÇA, LA MANELA!"</strong>
+        <b>"ALÇA, LA MANELA!"</b>
       </div>
     </div>
   </div>
@@ -81,11 +80,11 @@
   <div class="flip-card">
     <div class="flip-card-inner">
       <div class="flip-card-front">
-        <img src="/images/pastor.png" alt="Felip" style ="width:300px;height:300px;">
+        <img src="/images/pastor.png" alt="Felip" style="width:300px;height:300px;">
       </div>
       <div class="flip-card-back">
         <h1>Felip</h1>
-        <p>És fidel a la manela</p>
+        <p>És fidel a la Manela</p>
         <p>Cuida les seves ovelles</p>
         <p>Molt tímid amb les noies</p>
         <p>Toca la flauta</p>
@@ -96,7 +95,7 @@
   <div class="flip-card">
     <div class="flip-card-inner">
       <div class="flip-card-front">
-        <img src="/images/angel.png" alt="AngelGabriel" style ="width:300px;height:300px;">
+        <img src="/images/angel.png" alt="Arcàngel Gabriel" style="width:300px;height:300px;">
       </div>
       <div class="flip-card-back">
         <h1>Arcàngel Gabriel</h1>
@@ -109,7 +108,7 @@
   <div class="flip-card">
     <div class="flip-card-inner">
       <div class="flip-card-front">
-        <img src="/images/devil.png" alt="Llucifer" style ="width:300px;height:300px;">
+        <img src="/images/devil.png" alt="Llucifer" style="width:300px;height:300px;">
       </div>
       <div class="flip-card-back">
         <h1>Llucifer</h1>
@@ -123,13 +122,13 @@
   <div class="flip-card">
     <div class="flip-card-inner">
       <div class="flip-card-front">
-        <img src="/images/pastor.png" alt="Joanet" style ="width:300px;height:300px;">
+        <img src="/images/pastor.png" alt="Joanet" style="width:300px;height:300px;">
       </div>
       <div class="flip-card-back">
         <h1>Joanet</h1>
         <p>Vol ser TikToker i tenir molts likes</p>
         <p>Està disposat a fer de tot</p>
-        <p>Al final mai sap que ha de fer</p>
+        <p>Al final mai sap què ha de fer</p>
       </div>
     </div>
   </div>
@@ -137,54 +136,18 @@
   <div class="flip-card">
     <div class="flip-card-inner">
       <div class="flip-card-front">
-        <img src="/images/devil.png" alt="Satanas" style ="width:300px;height:300px;">
+        <img src="/images/devil.png" alt="Satanas" style="width:300px;height:300px;">
       </div>
       <div class="flip-card-back">
         <h1>Satanas</h1>
-        <p>Avui l'infern celebra una gran festa</p>
-        <p>Per emprenyaaaaaar!</p>
-        <p>Si senyor llucifer</p>
-        <p>No allargo més la descripció</p>
+        <p>Avui l'infern està on és, però sempre pot anar més enllà</p>
+        <p>Algú ha signat un contracte amb sang</p>
+        <p>Veurem quina mena de pestes vindran d'aquest pacte</p>
       </div>
     </div>
   </div>
-</div>
 
 </div>
 
-<div class="middle">
-  <h1>Compte enrere fins a la primera funció</h1>
-  <p id="temps" style="font-size: 30px;"></p>
-  <script src="countDownTimer.js"></script>
-</div>
-
-<footer>
-  <div class="column">
-    <h3>Els Pastorets de Girona</h3>
-    <ul>
-      <li><a href="">About</a></li>
-      <li><a href="">FAQ</a></li>
-      <li><a href="">Third-party notice</a></li>
-    </ul>
-  </div>
-
-  <div class="column">
-    <h3>Segueix-nos</h3>
-    <ul>
-      <li><a href="">Twitter</a></li>
-      <li><a href="">Instagram</a></li>
-      <li><a href="">TikTok</a></li>
-    </ul>
-  </div>
-
-  <div class="column">
-    <h3>Descobreix</h3>
-    <ul>
-      <li><a href="">Newsletters</a></li>
-      <li><a href="">Blog</a></li>
-      <li><a href="">Col·labora</a></li>
-    </ul>
-  </div>
-</footer>
 </body>
 </html>
