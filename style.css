@@ -223,3 +223,22 @@ footer a:hover {
 li {
   margin-bottom: 5px;
 }
+/* Nav Bar*/
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8); /* Color de fons inicial */
+  z-index: 9999;
+}
+
+.nav-link {
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.content {
+  margin-top: 100px; /* Per evitar que el contingut quedi amagat darrere de la barra de navegació */
+}

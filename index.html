@@ -4,7 +4,8 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
   <title>Exemple Web Els Pastorets de Girona</title>
   <link rel = "icon" type="image/x-icon" href="/images/logoPastorets.png">
-  <link rel="stylesheet" href="style.css" type="text/css"> 
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> 
 </head>
 
 <body>
@@ -14,13 +15,20 @@
       Landing page els pastortets de girona
     </div>
 </div>
-  <script src="fadeOnScroll.js"></script>
+<script src="fadeOnScroll.js"></script>
   <div class="header">
     <h1>Pastorets De Girona</h1>
     <h2>Són diferents exemples de coses que he programat</h2>
     <h3>Tot es pot modificar, sobre tot els colors</h3>
     <p>Millor fer una NavBar amb icones</p>
   </div>
+  <div class="navbar" id="navbar">
+    <a class="nav-link" href="#home"><i class="fas fa-home"></i>Ara si</a>
+    <a class="nav-link" href="#about"><i class="fas fa-info-circle"></i>Informació</a>
+    <a class="nav-link" href="#fotos"><i class="fas fa-camera"></i>Fotos</a>
+    <a class="nav-link" href="#casting"><i class="fas fa-film"></i>Càsting</a>
+  </div>
+  <script src="navScroll.js"></script>
   <button class="tablink" onclick="obrirInfo('AraSi',this,'purple')" id="defaultOpen">Ara si</button>
   <button class="tablink" onclick="obrirInfo('Informacio',this,'blue')">Informació</button>
   <button class="tablink" onclick="obrirInfo('Fotos',this,'steelblue')">Galeria d'imatges</button>
