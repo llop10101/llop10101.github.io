@@ -71,18 +71,6 @@ hr {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-#flip-card-container {
-  display: none;
-  margin-top: 100vh;
-}
-
-.fade {
-  opacity: 0;
-}
-
-.show {
-  display: block;
-}
 
 
 #image-container.fade #text-overlay {
