@@ -101,6 +101,7 @@ h1,h2,h3,h4,h5,p,ul,td {
   }
 
   .header {
+    position:initial;
     padding : 60px;
     text-align: center;
     background-color: transparent;
