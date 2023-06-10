@@ -289,6 +289,7 @@ table tr:nth-child(even) {
 
 .image-grid {
   display: grid;
+  margin-top: 30px;
   grid-template-columns: repeat(5, 1fr);
   grid-gap: 20px;
   background-color: rgba(35, 35, 35, 0.8);
