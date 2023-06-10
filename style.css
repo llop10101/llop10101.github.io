@@ -287,7 +287,7 @@ table tr:nth-child(even) {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-gap: 20px;
-  background-color: rgba(36, 36, 36, 0.8);
+  background-color: rgba(35, 35, 35, 0.8);
 }
 
 .grid-item {
