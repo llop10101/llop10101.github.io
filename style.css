@@ -81,7 +81,7 @@ hr {
 }
 
 #slogan {
-  font-family: "Helvetica", Arial, sans-serif; /* Replace "Your Fancy Font" with the desired font name */
+  font-family: "Signika Negative Font", Arial, sans-serif; /* Replace "Your Fancy Font" with the desired font name */
   font-size: 24px;
   font-weight: bold;
   color: #fff;
@@ -358,4 +358,11 @@ table tr:nth-child(even) {
 .lightbox-image {
   max-width: 90%;
   max-height: 90%;
+}
+
+@font-face {
+  font-family: "Signika Negative Font";
+  src: url("fonts/signika-negative-font.woff2") format("woff2"),
+       url("fonts/signika-negative-font.woff") format("woff"),
+       url("fonts/signika-negative-font.ttf") format("truetype");
 }
