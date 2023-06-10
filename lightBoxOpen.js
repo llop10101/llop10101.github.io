@@ -1,10 +1,13 @@
-function openLightbox(element) {
-    element.parentNode.querySelector('.lightbox-overlay').classList.add('show');
+function openLightbox(image) {
+    var lightbox = document.querySelector('.lightbox-overlay');
+    var lightboxImage = document.querySelector('.lightbox-image');
+  
+    lightboxImage.src = image.src;
+    lightbox.classList.add('show');
   }
   
-  document.addEventListener('click', function(event) {
-    if (event.target.classList.contains('lightbox-overlay')) {
-      event.target.classList.remove('show');
-    }
-  });
+  function closeLightbox() {
+    var lightbox = document.querySelector('.lightbox-overlay');
+    lightbox.classList.remove('show');
+  }
   

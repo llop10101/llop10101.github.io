@@ -299,7 +299,7 @@ table tr:nth-child(even) {
 }
 
 .grid-item:hover {
-  filter: blur(5px); /* Blur on hover */
+  filter: blur(2px); /* Blur on hover */
 }
 
 .grid-item img {
@@ -320,11 +320,13 @@ table tr:nth-child(even) {
   align-items: center;
 }
 
+.lightbox-overlay.show {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .lightbox-image {
   max-width: 90%;
   max-height: 90%;
-}
-
-.lightbox-overlay.show {
-  display: flex;
 }
