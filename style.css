@@ -289,17 +289,17 @@ table tr:nth-child(even) {
   grid-gap: 20px;
 }
 
-.image-grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
 .grid-item {
   width: 50%;
   padding: 10px;
   box-sizing: border-box;
   position: relative;
+  filter: blur(0); /* Initial blur */
+  transition: filter 0.3s ease; /* Transition effect */
+}
+
+.grid-item:hover {
+  filter: blur(5px); /* Blur on hover */
 }
 
 .grid-item img {
