@@ -285,12 +285,12 @@ table tr:nth-child(even) {
 
 .image-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   grid-gap: 20px;
 }
 
 .grid-item {
-  width: 50%;
+  width: 100%;
   padding: 10px;
   box-sizing: border-box;
   position: relative;
