@@ -264,6 +264,7 @@ li {
 /* Nav Bar*/
  /* The navigation menu */
  .navbar {
+  position : fixed;
   overflow: hidden;
   background-color: #ffffff;
 }
