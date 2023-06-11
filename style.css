@@ -289,7 +289,7 @@ li {
   font-size: 16px;
   border: none;
   outline: none;
-  color: white;
+  color: rgb(0, 0, 0);
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
@@ -314,14 +314,14 @@ li {
 /* Style the subnav links */
 .subnav-content a {
   float: left;
-  color: rgb(192, 192, 192);
+  color: rgb(0, 0, 0);
   text-decoration: none;
 }
 
 /* Add a grey background color on hover */
 .subnav-content a:hover {
   background-color: #3b3b3b;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 
 /* When you move the mouse over the subnav container, open the subnav content */
