@@ -266,7 +266,7 @@ li {
 .navbar {
   
  overflow: hidden;
- background-color: #ffffff; 
+ background-color: #ececec; 
 }
 
 .navbar a {
@@ -295,7 +295,7 @@ li {
 }
 
 .navbar a:hover, .subnav:hover .subnavbtn {
- background-color: #ececec;
+ background-color: #ffffff;
 }
 
 .subnav-content {
@@ -314,7 +314,7 @@ li {
 }
 
 .subnav-content a:hover {
- background-color: #ececec;
+ background-color: #ffffff;
  color: rgb(0, 0, 0);
 }
 
