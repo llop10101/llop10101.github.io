@@ -294,14 +294,14 @@ li {
 }
 
 .navbar a:hover, .subnav:hover .subnavbtn {
- background-color: rgb(51, 51, 51);
+ background-color: #ececec;
 }
 
 .subnav-content {
  display: none;
  position: absolute;
  left: auto;
- background-color: rgb(51, 51, 51);
+ background-color: #ececec;
  width: auto;
  z-index: 1;
 }
@@ -313,7 +313,7 @@ li {
 }
 
 .subnav-content a:hover {
- background-color: #525252;
+ background-color: #ececec;
  color: rgb(0, 0, 0);
 }
 
