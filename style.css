@@ -20,10 +20,6 @@
     --bright3: #ECEFF4;
 }
 
-html {
-    scroll-behaviour: smooth;
-}
-
 h1 {
     font-size: 96px;
     font-weight: bold;
@@ -165,3 +161,51 @@ a img:hover {
     width: 750px;
     height: auto;
 }
+
+.landing {
+    height: 100dvh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#my-formation, #my-projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#my-competitions {
+    margin-left: 10%;
+}
+
+.project-link {
+    margin-top: 10px;
+}
+
+.about-me-left {
+    flex: 2;
+  }
+
+  .about-me-right {
+    flex: 1;
+    text-align:center;
+  }
+  
+  .profile-pic {
+    width: 150px; 
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    object-fit: cover;
+    object-position: 50% 30%;
+  }
+  
+  .details p {
+    margin: 5px 0;
+  }
+
+  .details b {
+    color: var(--color4);
+  }
