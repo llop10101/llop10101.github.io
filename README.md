@@ -53,6 +53,6 @@ You can view the design prototype and wireframes in Figma here:
 
 ## Website
 
-The website is built using HTML and CSS. Below are the links to the source code:
+The website is built using HTML and CSS. You can find below the link to the live Website:
 
 - [Live Website](https://llop10101.github.io/)
