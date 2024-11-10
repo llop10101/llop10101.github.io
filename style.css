@@ -66,6 +66,7 @@ body {
     margin: 0px;
     background-color: var(--dark1);
     display: flex;
+    font-family: 'Roboto', sans-serif;
 }
 
 main {
